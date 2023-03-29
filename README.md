@@ -5,10 +5,10 @@
 * Implement self-filling of the Xray listening port
 * You can customize the input UUID, and non-standard UUIDs will be mapped to UUIDv5 using Xray uuid -i "Custom Strings"
 * Implement DEST selection and self-filling
-* Implement TLSv1.3 and H2 validation for self-filled dest
-* Implement automatic acquisition of serverNames with self-filled dest
-* Implement the filtering of automatically obtained serverNames wildcard domain names and CDN SNI domain names, and dest will automatically add it to serverNames if it is a subdomain
-* Customize the display of spiderX that implements self-filling dest, for example: client config is displayed when self-filling dest is fmovies.to/homespiderX: /home
+    - Implement TLSv1.3 and H2 validation for self-filled dest
+    - Implement automatic acquisition of serverNames with self-filled dest
+    - Implement the filtering of automatically obtained serverNames wildcard domain names and CDN SNI domain names, and dest will automatically add it to serverNames if it is a subdomain
+    - Customize the display of spiderX that implements self-filling dest, for example: client config is displayed when self-filling dest is fmovies.to/homespiderX: /home
 * By default, you can disable traffic, advertising, and BT
 * Implement automatic updates of geo files
 
